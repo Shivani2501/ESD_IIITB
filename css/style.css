@@ -1,0 +1,383 @@
+/* General Reset and Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+            width: 100%; /* full-width */
+            max-width: 1000px; /* or specify a size */
+            padding: 80px; /* space within the card */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* shadow effect */
+            border-radius: 18px; /* rounded corners */
+
+}
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+.landing-page{
+    background-image: url('/EliteAutos/Images/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0,6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.landing-page h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: white;
+
+}
+
+.landing-page p{
+    font-size: 4.5rem;
+    font-weight: 300;
+    color: white;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+}
+
+header h1 {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+header .btn-primary {
+    background-color: #ffd700; /* Gold button */
+    border: none;
+}
+
+header .btn-primary:hover {
+    background-color: #ffcc00;
+}
+
+/* Hero Section Styling */
+.hero {
+    background-color: #8f858e;
+    color: #333;
+    background-image: "Images/Car1.jpg";
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+
+    font-size: 6.5rem;
+    font-weight: bold;
+    color: #FFEA00;
+}
+
+.hero p {
+    font-size: 2.2rem;
+    margin-top: 15px;
+}
+.containhead{
+    background-image: "Images/Car1.jpg";
+}
+.hero .btn-primary {
+    background-color: #ffd700;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.hero .btn-primary:hover {
+    background-color: #ffcc00;
+}
+
+/* Featured Cars Section Styling */
+.featured-cars {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+}
+
+.featured-cars h3 {
+    font-weight: 700;
+    text-align: center;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.featured-cars .card {
+    border: none;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.featured-cars .card:hover {
+    transform: scale(1.05);
+}
+
+.featured-cars .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.featured-cars .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.featured-cars .card-text {
+    font-size: 1rem;
+    color: #666;
+}
+
+.featured-cars .btn-primary {
+    background-color: #333;
+    border: none;
+    padding: 8px 16px;
+}
+
+.featured-cars .btn-primary:hover {
+    background-color: #555;
+}
+
+/* Testimonials Section Styling */
+.testimonials {
+    background-color: #ffffff;
+    padding: 60px 20px;
+}
+
+.testimonials h3 {
+    font-weight: 700;
+    color: #333;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.testimonials blockquote {
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #ffd700;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+.testimonials footer {
+    font-weight: bold;
+    color: #333;
+    text-align: right;
+}
+.testimonials bg-light py-5{
+    text-align: center;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .featured-cars .card img {
+        height: 150px;
+    }
+
+    header .btn-primary {
+        font-size: 0.875rem;
+        padding: 5px 10px;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+.row{
+    display: flex;
+    flex-wrap:wrap;
+    align-content: center;
+    justify-content: center;
+    
+}
+.review{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.col-md-4{
+    margin: 12px;
+}
+.card-img-top{
+    width: 300px;
+}
+.blockquote-footer{
+    background-color: white;
+}
+
+/* General Reset and Body Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+}
+
+/* Header Styling */
+header {
+    background-color: #333;
+}
+
+header h1 {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    color: #ffd700; /* Gold color on hover */
+}
+
+header .btn-primary {
+    background-color: #ffd700; /* Gold button */
+    border: none;
+}
+
+header .btn-primary:hover {
+    background-color: #ffcc00;
+}
+
+/* Sign Up Form Section Styling */
+.signup-form {
+    background-color: #f0f0f0;
+    padding: 80px 20px;
+    color: #333;
+}
+
+.signup-form h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.signup-form p {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+.signup-form .form-group {
+    margin-bottom: 20px;
+}
+
+.signup-form label {
+    font-weight: 600;
+    color: #333;
+}
+
+.signup-form .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.signup-form .form-control:focus {
+    border-color: #ffd700;
+    box-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+    outline: none;
+}
+
+.signup-form .btn-primary {
+    background-color: #ffd700;
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.signup-form .btn-primary:hover {
+    background-color: #ffcc00;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .signup-form {
+        padding: 60px 15px;
+    }
+
+    .signup-form h2 {
+        font-size: 1.8rem;
+    }
+
+    .signup-form p {
+        font-size: 1rem;
+    }
+}
